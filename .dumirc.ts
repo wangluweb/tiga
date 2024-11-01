@@ -4,7 +4,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   themeConfig: {
     name: 'tiga',
-    base: '/tiga/',
-    publicPath: '/tiga/',
+    base: '/tiga-components/',
+    publicPath: '/tiga-components/',
   },
 });
