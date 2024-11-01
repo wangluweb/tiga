@@ -2,9 +2,12 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  themeConfig: {
-    name: 'tiga',
-    base: '/tiga/',
-    publicPath: '/tiga/',
-  },
+  //  name: 'tiga',
+  base: '/tiga/',
+  publicPath: '/tiga/',
+  // themeConfig: {
+  //   // name: 'tiga',
+  //   base: '/tiga/',
+  //   // publicPath: '/tiga/',
+  // },
 });
