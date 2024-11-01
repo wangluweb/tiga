@@ -5,15 +5,14 @@ on:
     branches:
       - master  # 或 master，根据分支情况修改
 
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
 
-      - name: Set up Node.js
+        uses: actions/checkout@v3
         uses: actions/setup-node@v3
         with:
           node-version: '18'  # 使用最新稳定的 Node.js 版本
